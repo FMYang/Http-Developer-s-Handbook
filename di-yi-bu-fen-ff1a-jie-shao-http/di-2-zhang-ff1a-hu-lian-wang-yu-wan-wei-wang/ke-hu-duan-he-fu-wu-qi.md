@@ -1,0 +1,5 @@
+#### Clients and Servers
+
+Networking programs usually play the role of a client or server. Sometimes the distinction between a client and a server can be difficult to make, but in most cases the server provides a service that one or more clients can use. One of the most common characteristics of a server is that it waits for client connections indefinitely, whereas a client will usually complete a task and terminate.
+
+The Web provides the best academic example for educating people about clients and servers. A server in this case is a Web server, and the client is a Web browser. These not only offer almost perfect stereotypical examples of clients and servers, but the popularity of the Web also gives people a familiar foundation to build from, because they most likely already understand the basic responsibilities of a Web browser and a Web server.

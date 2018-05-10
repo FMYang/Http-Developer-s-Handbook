@@ -1,3 +1,5 @@
+#### Brief History and Purpose of HTTP
+
 To learn aboutthe history of HTTP, it is appropriate to learn how the Web as we know it began. HTTP was one piece of a larger picture in the mind of a man named Tim Berners-Lee. In fact, HTTP was simply designed out of necessity to fulfill the ideaof the Web.
 
 In March of 1989, Berners-Lee submitted a proposal to CERN, Conseil Europeen pour la Recherche Nucleaire\(European Organization for Nuclear Research\), entitled, "Information Management: A Proposal." This proposal is considered by most to represent the invention of the World Wide Web. Although the proposal focuses on the general idea rather than specifying every detail, it defines the key concepts that have since changed the perspective of the world. Berners-Lee announced the World Wide Web in August of 1991 on a newsgroup. The original announcement can still be viewed on Google Groups\([http://groups.google.com/groups?selm=6487%40cernvax.cern.ch](http://groups.google.com/groups@selm=6487_2540cernvax.cern.ch)\).
@@ -62,33 +64,26 @@ Authentication is a somewhat rarely used feature of HTTP. If you have evervisite
 
 With all of these new features and several others, HTTP 1.0 can be credited with spurring the amazing growth of the Web in the mid to late 1990s. All major Web browsers and servers still honor backward compatibilitywith HTTP 1.0.
 
-
 #### HTTP 1.1
 
 According tothe World Wide Web Consortium's Web site, activity on HTTP ceased in May 2000. Although many new ideas are constantly being proposed for the Web, and many of these require interaction with or even integration with HTTP, HTTP 1.1 is the last version of the protocol, and it is considered a stable specification.
 
 There are quite a few notable improvements made in HTTP 1.1, although I will outline only a few. Many of the features introduced in HTTP 1.0 were improved in HTTP 1.1, and several new features were added.
 
-One of the new features was theHostheader. This header is included, and in fact required, in the HTTP request. It specifies the host being contacted. For example, when a request is made for the URLhttp://httphandbook.org/, theHostheader is
+One of the new features was theHostheader. This header is included, and in fact required, in the HTTP request. It specifies the host being contacted. For example, when a request is made for the URL[http://httphandbook.org/](http://httphandbook.org/), theHostheader is
 
 ```
-Host: httphandbook.org 
+Host: httphandbook.org
 ```
 
 At first, this might seem insignificant. However, it allows a single Web server to host many domains without having to have a separate IP address for each domain. We will speak briefly about the Internet protocol and IPaddressing soon, but it is sufficient for now to know that many domains can resolve to or "point to" the same IP address, where an IP address is a unique address on the Internet. Prior to the inclusion of theHostheader, HTTP had no means by which to accommodate multiple domain names that resolved to the same IP address; a host was considered a unique IP address. Consider the following valid HTTP request:
 
-```
-GET /
-index
-.html HTTP/1.0 
-```
+`GET /index.html HTTP/1.0`
 
 Because/index.htmlis a common resource, several Web sites might have their own/index.html, although their actual content is most likely different. Because this example shows a complete and correct HTTP 1.0 request, the need for more information is evident. Consider the following HTTP 1.1 request as an alternative:
 
-`
-GET /index.html HTTP/1.1 
-Host: httphandbook.org 
-`
+`GET /index.html HTTP/1.1`  
+`Host: httphandbook.org`
 
 With thisrequest, a Web server can distinguish this/index.htmlfrom all others, regardless of how many Web sites use the same IP address. This is sometimes referred toasmultihoming.
 
@@ -97,7 +92,4 @@ Another new feature introduced in HTTP 1.1 istherange request. With this feature
 A similar idea is that of the Web serversending the response back in pieces. HTTP 1.1 also gives us chunked responses. With this feature, the Web server does send the entire response after a single request, unlike the range requests I just mentioned where multiple requests are necessary, but the response is sent in pieces. Each piece has a specific length that is communicated to the client prior to it being submitted. This allows responses to be given as they are generated, so that the end users can begin to see content rather than having to wait for the entire response to be generated prior to seeing any feedback. The same TCP connection is used. I will cover range requests more in[Part II](itss://chm/0672324547_part02.html#part02), "HTTP Definition," as well as in[Chapter 14](itss://chm/0672324547_ch14.html#ch14). HTTP 1.1 also improves on previous features such as caching and authentication. Additionally, persistent connections are now the default behavior rather than an option. Because of this, Web servers must specify the length of the response so that the Web client knows when it is free to send another request on the same TCP connection.
 
 Hopefully you are now familiar with the basic evolution of HTTP and what types of topics this book covers. All of these ideas mentioned here are explained in much more detail, although everything is organized in such a way that you can focus on the things you feel are mostimportant.
-
-[  
-](itss://chm/0672324547_)
 
