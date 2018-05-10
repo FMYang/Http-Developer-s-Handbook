@@ -1,0 +1,7 @@
+#### Never Depend on Security Through Obscurity
+
+This phrase has become common lore, but unfortunately the meaning behind it is not as common. Security through obscurity is a phrase that has been given to all methods of security in which the strength of the security relies on a secret that is kept secret only by chance. For example, if you had a secret URL that only privileged people knew about, and you relied on its secrecy as a part of the security, this is an example of security through obscurity.
+
+Another common example is weak cryptographic algorithms that are kept secret as an attempt to strengthen their security. As many cryptoanalysts will stress, peer review is essential for ensuring the strength of cryptographic algorithms. One of the most notorious cases of this is the CSS (Content Scrambling System) algorithm intended to encode DVDs so that they can only be played on authorized devices. Some resourceful people created software called DeCSS, which descrambles DVDs, in order to be able to watch their DVDs on their personal computers. This software ultimately became the target of a controversial lawsuit. The lack of peer review and reliance on security through obscurity contributed greatly to the demise of the CSS algorithm.
+
+Obscurity is not all bad, of course. Any obstacle that a potential attacker must overcome does strengthen security. The important point is to never depend on obscurity for protection.

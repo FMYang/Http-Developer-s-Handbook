@@ -1,0 +1,3 @@
+#### Summary
+
+The authors of TLS will likely admit that there are more differences between SSL/2.0 and SSL/3.0 than there are between the latter and TLS/1.0. In fact, this is evident by the fact that TLS identifies itself as SSL/3.1. The capability to negotiate TLS on the standard HTTP port is the most significant advantage, but it also comes with its own disadvantages. Due to the lack of any real benefit of TLS over SSL/3.0, combined with the subtle disadvantages just mentioned, Web agents have been reluctant to fully support TLS. As of the writing of this book, however, many Web agents now support TLS/1.0 as well as the connection upgrades just described.

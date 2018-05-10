@@ -1,0 +1,5 @@
+#### Always Use the Simplest Solution
+
+A very common pitfall for Web developers, even experienced ones, is to over-complicate the design of a solution. Some developers have a tendency to create the most sophisticated solution that they can comprehend. The most common reason cited for this behavior is the natural desire for a developer to be challenged. When only a simplistic design is necessary, the developer may add some extra features in order to be proud of the result and to avoid the tediousness of a boring project. Although this approach is admirable in terms of work ethic, it can be dangerous in terms of security. The more complex the design of an application is, the more prone it will be to failure, the more likely it is to have security holes, and the more difficult it is to be reviewed by peer developers.
+
+It is much more advisable to keep the design very elegant and simple. Though many tout commenting code as the best way to keep code easy to comprehend and maintain, most would agree that there is no substitute for a clean design and consistent programming practices.
