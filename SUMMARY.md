@@ -37,7 +37,7 @@
     * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/zong-jie.md)
   * [第6章：HTTP响应](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying.md)
     * [响应语法](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-yu-fa.md)
-    * 响应状态代码
+    * [响应状态代码](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-zhuang-tai-dai-ma.md)
     * 响应标头
     * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/zong-jie.md)
 * [第三部分：维持状态](di-san-bu-fen-ff1a-wei-chi-zhuang-tai.md)
