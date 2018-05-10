@@ -9,7 +9,7 @@ The Accept-Ranges header is the only HTTP header in the Accept family that is no
 There are only two valid formats for the Accept-Ranges header that are allowed according to the definition:
 
 `Accept-Ranges: bytes `
-A`ccept-Ranges: none `
+`Accept-Ranges: none `
 
 These basically indicate that the Web server does and does not accept range requests, respectively.
 
