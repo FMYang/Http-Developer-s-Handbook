@@ -38,7 +38,7 @@
   * [第6章：HTTP响应](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying.md)
     * [响应语法](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-yu-fa.md)
     * [响应状态代码](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-zhuang-tai-dai-ma.md)
-    * 响应标头
+    * [响应标头](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-biao-tou.md)
     * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/zong-jie.md)
 * [第三部分：维持状态](di-san-bu-fen-ff1a-wei-chi-zhuang-tai.md)
   * [第11章：用cookie进行HTTP状态管理](di-san-bu-fen-ff1a-wei-chi-zhuang-tai/di-11-zhang-ff1a-yong-cookie-jin-xing-http-zhuang-tai-guan-li.md)
