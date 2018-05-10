@@ -124,3 +124,10 @@ A Web client that supports P3P will use the URL identified in the P3P header to 
 >**Note
 **
 For more information about P3P, see http://www.w3.org/P3P/.
+
+
+#### Summary
+
+The ubiquity of HTTP makes it a popular choice for exchanging information on the Internet, and although the Web will likely remain the focus of its use, new and exciting technologies will inevitably continue to utilize HTTP's strengths.
+
+Although technically an application-level protocol, HTTP is often used as a transport protocol, as this chapter demonstrates. New technologies such as the three described here basically implement their own protocol on top of HTTP. Although it is doubtful that you will ever see the term HTTP/TCP/IP, future endeavors on the Internet that use HTTP as a transport protocol will serve to strengthen its importance. As firewalls that only allow TCP/IP traffic destined for ports 80 or 443 continue to appear, more and more functionality will likely be integrated into HTTP.
