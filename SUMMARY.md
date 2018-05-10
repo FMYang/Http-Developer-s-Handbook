@@ -32,8 +32,14 @@
 * [第二部分：HTTP定义](di-er-bu-fen-ff1a-http-ding-yi.md)
   * [第5章：HTTP请求](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu.md)
     * [请求语法](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/qing-qiu-yu-fa.md)
+    * [请求方法](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/qing-qiu-fang-fa.md)
+    * 请求报头
+    * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/zong-jie.md)
   * [第6章：HTTP响应](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying.md)
     * [响应语法](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-yu-fa.md)
+    * 响应状态代码
+    * 响应标头
+    * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/zong-jie.md)
 * [第三部分：维持状态](di-san-bu-fen-ff1a-wei-chi-zhuang-tai.md)
   * [第11章：用cookie进行HTTP状态管理](di-san-bu-fen-ff1a-wei-chi-zhuang-tai/di-11-zhang-ff1a-yong-cookie-jin-xing-http-zhuang-tai-guan-li.md)
     * [身份验证、标识和客户端数据](di-san-bu-fen-ff1a-wei-chi-zhuang-tai/di-11-zhang-ff1a-yong-cookie-jin-xing-http-zhuang-tai-guan-li/shen-fen-yan-zheng-3001-biao-shi-he-ke-hu-duan-shu-ju.md)
