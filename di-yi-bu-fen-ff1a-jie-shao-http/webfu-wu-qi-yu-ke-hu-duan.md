@@ -20,7 +20,7 @@ XML, Extensible Markup Language, is similar to HTML, except that its purpose is 
 For more information about XML and RSS, see Applied XML Solutions by Benoit Marchal, published by Sams Publishing.
 
 
-Most Web scripting languages provide a way to automate common HTTP tasks such as **GET** and **POST**. For example, PHP allows you to open a URL (using **GET**) just as if it were a file by using the **fopen()** function. If you need to send a **POST** request instead, you can utilize the **Net_Curl** class from PEAR (http://pear.php.net/package-info.php?pacid=30). ColdFusion provides the **<cfhttp>** tag, which supports **GET** and **POST**.
+Most Web scripting languages provide a way to automate common HTTP tasks such as **GET** and **POST**. For example, PHP allows you to open a URL (using **GET**) just as if it were a file by using the **fopen()** function. If you need to send a **POST** request instead, you can utilize the **Net_Curl** class from PEAR (http://pear.php.net/package-info.php?pacid=30). ColdFusion provides the `<cfhttp>` tag, which supports **GET** and **POST**.
 
 **Figure 4.1** shows how a Web server can syndicate content from another Web server. Once the HTTP request is received from the Web client, the generation of the response includes programming (such as the techniques mentioned in the previous paragraph) to obtain content from the second Web server. Unlike embedding images from remote servers in a Web page, this technique involves only a single transaction.
 
@@ -28,4 +28,5 @@ Most Web scripting languages provide a way to automate common HTTP tasks such as
 **
 
 There are many possibilities related to this technique. If you realize that a Web server can play the role of a Web client in communication with another server by sending its own HTTP request, you will likely be able to generate many creative ideas of your own.
+
 

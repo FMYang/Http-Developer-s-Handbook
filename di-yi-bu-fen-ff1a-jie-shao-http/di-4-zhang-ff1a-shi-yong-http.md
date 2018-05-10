@@ -1,0 +1,3 @@
+#### Chapter 4. Using HTTP
+
+There are many ways to make use of an understanding of HTTP. For many, it will serve as an important foundation for Web development skills. For others, perhaps a specific challenge drove the need for this book. I will illustrate a few common tasks that require expertise in HTTP. The more fundamental items are explained in much more detail in Chapters 11-23. There you will find specific examples and more detailed explanations of the most common challenges a Web developer faces.
