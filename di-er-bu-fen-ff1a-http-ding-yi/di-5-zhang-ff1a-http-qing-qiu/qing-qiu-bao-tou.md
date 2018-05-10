@@ -293,7 +293,7 @@ The TE header is the same as the Accept-Encoding header in syntax and semantics,
 
 The transfer encodings the browser can support along with an optional quality factor are given. Although the possible values of encodings are identical to the Accept-Encoding header (and collectively maintained by the Internet Assigned Numbers Authority), the TE header allows for an additional type of trailers to indicate that the client can support chunked transfer encoding.
 
-#****The User-Agent Header
+#### The User-Agent Header
 
 The User-Agent header allows the client to identify itself, so that the server can better serve the request. In the example GET request we used to search Google for the term HTTP, the browser identified itself as:
 

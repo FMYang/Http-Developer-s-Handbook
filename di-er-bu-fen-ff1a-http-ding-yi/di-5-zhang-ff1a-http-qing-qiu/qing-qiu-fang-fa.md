@@ -106,7 +106,7 @@ HEAD is a very useful request method for people who are interested in finding ou
 
 For example, using the example request from Chapter 3, you can replace GET with HEAD in the request to yield the following HTTP response:
 
-
+````
 HTTP/1.1 200 OK 
 Server: GWS/2.0 
 Date: Tue, 21 May 2002 12:34:56 GMT 
@@ -116,6 +116,8 @@ Content-Type: text/html
 Cache-control: private 
 Set-Cookie: PREF=ID=58c00...cXi3RhSE; 
             domain=.googl...14:07 GMT 
+````
+            
 This is exactly the same response that the GET request sent, only the content is absent. This is very helpful for debugging problems or just researching server behavior. Because the bulk of a response is usually content that is of little interest in these cases, the HEAD method allows you to suppress the content for the sake of convenience and clarity.
 
 >**Note
