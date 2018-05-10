@@ -1,0 +1,5 @@
+#### Chapter 24. Standards Organizations
+
+In order for a standard such as HTTP to gain respect and confidence in the industry, it is essential that it be maintained in an open environment by an authoritative organization and be clearly documented in a public medium. This ensures that all implementations of the protocol have clear guidelines to follow and an official source for specification details. This approach is essential for interoperability between Web agents, something that many take for granted.
+
+There are two key organizations involved in the evolution and continuing maintenance of the HTTP specification—the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF). Both of these organizations are members of the Internet Society (ISOC), a professional membership society governed by a Board of Trustees that seeks to "maintain the viability and global scaling of the Internet."

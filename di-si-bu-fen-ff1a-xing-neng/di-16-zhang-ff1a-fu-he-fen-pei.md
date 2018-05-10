@@ -1,0 +1,5 @@
+#### Chapter 16. Load Distribution
+
+In many professional Web serving environments, there are clusters, load balancers, and other pieces of hardware that have yet to be referenced in much detail in this book. Because the study of HTTP does not require a detailed view into the networking infrastructure, this approach is sufficient. When speaking to performance measures, however, you must dig deeper into the Web serving environment.
+
+Assuming your application is written as efficiently as possible and you are making the most appropriate use of caching, the biggest performance gains can be made in tuning your Web serving environment. In order to handle a large capacity of users, your Web serving environment should be able to distribute Web traffic across multiple resources: both hardware resources (such as servers) and software resources (such as processes). This technique of load distribution is quite common in practice and can make an enormous difference in the amount of users your application can support.

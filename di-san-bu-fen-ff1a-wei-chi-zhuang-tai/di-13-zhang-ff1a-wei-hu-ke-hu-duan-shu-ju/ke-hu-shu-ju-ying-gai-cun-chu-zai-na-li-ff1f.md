@@ -1,0 +1,7 @@
+### Where Should Client Data Be Stored?
+
+Before you begin to consider the details of your approach to storing client data, it is helpful to clearly outline what data you expect to maintain for each user and determine where the most appropriate place is to keep this data.
+
+For example, as you make your list, it is helpful to determine what information you need only during the life of the current browser session and what information you need to persist beyond the current browser session. If the customer is shopping online, the items to be purchased might be required only for the length of the session, unless the user specifically chooses to save these items for a later purchase. In this same application, the shipping address might be stored permanently so that a returning customer has the added convenience of not having to fill out that information again.
+
+Once you have determined what information you need per client and how long you need the information to persist, you are ready to decide which techniques to use in order to meet your needs. The considerations you make differ slightly depending on whether each element of information needs to persist across multiple browser sessions, so I will address both cases separately. Just as with identifying the client, multiple techniques can be combined, so it is not necessary to group all information into a single category.

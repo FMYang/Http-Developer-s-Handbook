@@ -1,0 +1,3 @@
+#### Chapter 10. Media Types
+
+As discussed in Chapter 5, "HTTP Requests," media types are currently maintained by the IANA, Internet Assigned Numbers Authority. These media types are essential in informing the Web client as to the type of content being returned so that the Web client can properly handle the response. This might include rendering HTML or an image, executing a helper application to handle the content, and so on.
