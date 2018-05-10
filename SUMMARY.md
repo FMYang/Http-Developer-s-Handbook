@@ -33,7 +33,7 @@
   * [第5章：HTTP请求](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu.md)
     * [请求语法](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/qing-qiu-yu-fa.md)
     * [请求方法](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/qing-qiu-fang-fa.md)
-    * 请求报头
+    * [请求报头](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/qing-qiu-bao-tou.md)
     * [总结](di-er-bu-fen-ff1a-http-ding-yi/di-5-zhang-ff1a-http-qing-qiu/zong-jie.md)
   * [第6章：HTTP响应](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying.md)
     * [响应语法](di-er-bu-fen-ff1a-http-ding-yi/di-6-zhang-ff1a-http-xiang-ying/xiang-ying-yu-fa.md)
